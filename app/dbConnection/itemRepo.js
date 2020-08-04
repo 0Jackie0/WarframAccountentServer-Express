@@ -107,7 +107,7 @@ itemRepo.removeOne = (targetId, callback) =>
                 }
                 else
                 {
-                    callback(target);
+                    callback(target[0]);
                 }
             });
         }

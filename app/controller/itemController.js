@@ -104,7 +104,6 @@ router.put("/one", function(request, respond)
     })
 })
 
-
 router.delete("/remove/:itemId", function(request, respond)
 {
     console.log("Remove Item -- Id: " + request.params.itemId)
